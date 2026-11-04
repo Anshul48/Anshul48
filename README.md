@@ -44,11 +44,11 @@ Its memory is TRACE-backed: past jobs are stored, recalled in front of the next 
 
 [Replay the recorded demo](https://anshul48.github.io/anima-substrate/demo/) — recorded state-tree replay; dashboard shown as UI preview. [How the demo runs](https://github.com/Anshul48/anima-substrate/blob/main/docs/INTEGRATED-DEMO.md)
 
-### Reflex — the right button, first try.
+### Reflex — the right button on the screen.
 
 An AI that looks at a screen and finds the right button to press. Give it a screenshot and a goal in plain words; it points at the control that moves you forward.
 
-Cheap-first by design: simple techniques clear the easy cases, stronger models take only the hard ones. Built on SAM 3.1 with Muse Spark; raw capability first, model second.
+In recorded trials on designed screens, Meta's SAM 3.1 marks the controls and Muse Spark chooses the click.
 
 [Watch the replay](https://anshul48.github.io/demo-trace-anima-reflex/) — no login, nothing to install. [Demo repository](https://github.com/Anshul48/demo-trace-anima-reflex)
 
@@ -83,7 +83,7 @@ Cheap-first by design: simple techniques clear the easy cases, stronger models t
 - [Receipts](https://github.com/Anshul48/trace/tree/main/receipts) — the checkable records behind the TRACE numbers.
 - [Reproduce](https://github.com/Anshul48/trace/blob/main/docs/REPRO.md) — run the measurements yourself.
 - [Architecture](https://github.com/Anshul48/trace/blob/main/docs/ARCHITECTURE.md) — how the memory is built.
-- [Research notes](https://github.com/Anshul48/trace/tree/main/docs/vision) — vision and hypotheses: not built, not measured.
+- [Research notes](https://github.com/Anshul48/trace/tree/main/docs/vision) — vision and open questions.
 - [Status](https://github.com/Anshul48/trace/blob/main/docs/status.json) — current verified state of the build.
 - [Contribute](https://github.com/Anshul48/trace/blob/main/CONTRIBUTING.md) — how to help.
 
