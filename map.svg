@@ -31,12 +31,12 @@
     <text x="320" y="172" font-size="13" class="muted">a 100M library that organizes itself</text>
     <a href="https://github.com/Anshul48/trace">
       <title>TRACE repository</title>
-      <text x="285" y="210" font-size="14" font-weight="600" class="link" text-decoration="underline">repository</text>
+      <text x="266" y="210" font-size="14" font-weight="600" class="link" text-decoration="underline">repository</text>
     </a>
     <text x="320" y="210" font-size="14" class="muted">·</text>
     <a href="https://anshul48.github.io/trace/explorer/">
       <title>TRACE explorer: replay of real recorded searches</title>
-      <text x="358" y="210" font-size="14" font-weight="600" class="link" text-decoration="underline">explorer</text>
+      <text x="374" y="210" font-size="14" font-weight="600" class="link" text-decoration="underline">explorer</text>
     </a>
     <!-- ANIMA (left) and Reflex (right), adjacent -->
     <rect x="30" y="262" width="275" height="170" rx="12" class="side-card" stroke-width="2"/>
