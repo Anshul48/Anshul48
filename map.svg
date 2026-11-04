@@ -53,7 +53,7 @@
     </a>
     <rect x="335" y="262" width="275" height="170" rx="12" class="side-card" stroke-width="2"/>
     <text x="472" y="308" font-size="28" font-weight="700" class="side-name">Reflex</text>
-    <text x="472" y="334" font-size="13" class="muted">the right button, first try</text>
+    <text x="472" y="334" font-size="13" class="muted">the right button on the screen</text>
     <a href="https://github.com/Anshul48/demo-trace-anima-reflex">
       <title>Reflex demo repository</title>
       <text x="415" y="402" font-size="13" font-weight="600" class="link" text-decoration="underline">demo repository</text>
