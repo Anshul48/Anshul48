@@ -15,8 +15,3 @@ Demos and films:
 - [Working films](https://anshul48.github.io/trace/demos/) — the story and the working cuts.
 - [ANIMA recorded demo](https://anshul48.github.io/anima-substrate/demo/) — a real run as a state tree; dashboard is a UI preview.
 - [Reflex replay](https://anshul48.github.io/demo-trace-anima-reflex/) — a screen, a goal, the right button.
-
-Maintenance notes kept with this repo:
-
-- [PIN-INSTRUCTIONS.md](PIN-INSTRUCTIONS.md) — which repos to pin on the profile.
-- [OLD-ANIMA-BANNER.md](OLD-ANIMA-BANNER.md) — patch file: banner for the older `anima` repo.
