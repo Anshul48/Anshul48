@@ -1,0 +1,12 @@
+name: check-links
+on:
+  push:
+    branches: [main]
+  pull_request:
+jobs:
+  links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check every link returns 200
+        run: bash .github/workflows/check-links.sh
