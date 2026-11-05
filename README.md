@@ -14,7 +14,7 @@ I build memory and tools for developers and researchers whose AI agents keep sta
 - **ANIMA** — a prototype for one job type (fix a bug, judged by a hidden checker). Its memory is TRACE-backed; nine recorded bug-fix jobs replay as a state tree. [Recorded replay](https://anshul48.github.io/anima-substrate/demo/) · [Repository](https://github.com/Anshul48/anima-substrate) · [How the replay runs](https://github.com/Anshul48/anima-substrate/blob/main/docs/INTEGRATED-DEMO.md)
 - **Reflex** — an AI that looks at a screen and finds the right button to press (SAM 3.1 with Muse Spark). It does not use TRACE. [Replay](https://anshul48.github.io/demo-trace-anima-reflex/) · [Demo repository](https://github.com/Anshul48/demo-trace-anima-reflex)
 
-| 100M library | 0.79% of the library scored |
+| 100M library | 0.79% of rows on one of four equal library parts scored |
 |---|---|
 | 99.85% of exact top ten kept | 670 recorded Muse Code worker jobs |
 
