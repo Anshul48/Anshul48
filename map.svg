@@ -8,8 +8,9 @@
     .muted { fill: #445066; }
     .caption { fill: #667085; }
     .link { fill: #1f3a8a; }
-    .wire { stroke: #8a93ad; }
-    .wire-label { fill: #445066; }
+    .wire { stroke: #1f3a8a; }
+    .wire-label { fill: #1f3a8a; }
+    .bg { fill: #ffffff; stroke: #d5dae3; }
     @media (prefers-color-scheme: dark) {
       .trace-card { fill: #172a5e; stroke: #8fb0ff; }
       .side-card { fill: #1a2233; stroke: #6b7590; }
@@ -18,10 +19,12 @@
       .muted { fill: #a9b4cc; }
       .caption { fill: #9aa4bd; }
       .link { fill: #a9c2ff; }
-      .wire { stroke: #8b95b3; }
-      .wire-label { fill: #a9b4cc; }
+      .wire { stroke: #a9c2ff; }
+      .wire-label { fill: #a9c2ff; }
+      .bg { fill: #0d1117; stroke: #30363d; }
     }
   </style>
+  <rect x="1" y="1" width="638" height="468" rx="12" class="bg"/>
   <g font-family="system-ui, 'Segoe UI', Arial, sans-serif" text-anchor="middle">
     <text x="320" y="28" font-size="15" font-weight="600" letter-spacing="2" class="caption">ONE ECOSYSTEM</text>
     <!-- TRACE: largest card -->
@@ -44,27 +47,27 @@
     <text x="167" y="334" font-size="13" class="muted">memory for coding work</text>
     <a href="https://github.com/Anshul48/anima-substrate">
       <title>ANIMA repository</title>
-      <text x="122" y="402" font-size="13" font-weight="600" class="link" text-decoration="underline">repository</text>
+      <text x="112" y="402" font-size="13" font-weight="600" class="link" text-decoration="underline">repository</text>
     </a>
-    <text x="167" y="402" font-size="13" class="muted">·</text>
+    <text x="160" y="402" font-size="13" class="muted">·</text>
     <a href="https://anshul48.github.io/anima-substrate/demo/">
       <title>ANIMA recorded demo</title>
-      <text x="220" y="402" font-size="13" font-weight="600" class="link" text-decoration="underline">recorded demo</text>
+      <text x="222" y="402" font-size="13" font-weight="600" class="link" text-decoration="underline">recorded demo</text>
     </a>
     <rect x="335" y="262" width="275" height="170" rx="12" class="side-card" stroke-width="2"/>
     <text x="472" y="308" font-size="28" font-weight="700" class="side-name">Reflex</text>
     <text x="472" y="334" font-size="13" class="muted">the right button on the screen</text>
     <a href="https://github.com/Anshul48/demo-trace-anima-reflex">
       <title>Reflex demo repository</title>
-      <text x="415" y="402" font-size="13" font-weight="600" class="link" text-decoration="underline">demo repository</text>
+      <text x="405" y="402" font-size="13" font-weight="600" class="link" text-decoration="underline">demo repository</text>
     </a>
     <text x="472" y="402" font-size="13" class="muted">·</text>
     <a href="https://anshul48.github.io/demo-trace-anima-reflex/">
       <title>Reflex replay</title>
-      <text x="512" y="402" font-size="13" font-weight="600" class="link" text-decoration="underline">replay</text>
+      <text x="517" y="402" font-size="13" font-weight="600" class="link" text-decoration="underline">replay</text>
     </a>
     <!-- ANIMA prototype connection to TRACE; Reflex has no TRACE line -->
-    <line x1="180" y1="262" x2="180" y2="238" class="wire" stroke-width="2"/>
-    <text x="242" y="255" font-size="13" font-style="italic" class="wire-label">prototype</text>
+    <line x1="180" y1="262" x2="180" y2="238" class="wire" stroke-width="3"/>
+    <text x="242" y="255" font-size="14" font-weight="700" class="wire-label">prototype</text>
   </g>
 </svg>
