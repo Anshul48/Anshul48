@@ -85,6 +85,6 @@ In recorded trials on designed screens, Meta's SAM 3.1 marks the controls and Mu
 - [Architecture](https://github.com/Anshul48/trace/blob/main/docs/ARCHITECTURE.md) — how the memory is built.
 - [Research notes](https://github.com/Anshul48/trace/tree/main/docs/vision) — vision and open questions.
 - [Status](https://github.com/Anshul48/trace/blob/main/docs/status.json) — current verified state of the build.
-- [Contribute](https://github.com/Anshul48/trace/blob/main/CONTRIBUTING.md) — how to help.
+- [Contribute](https://github.com/Anshul48/trace/blob/main/.github/CONTRIBUTING.md) — how to help.
 
 <sub>Fine print: the TRACE demo library holds 812,545 passages and 99.9M tokens, short of the 100M target by 0.11%. Scope: 50 test searches; one of four equal library parts; passage-scoring work only. Recorded replays show real past runs; dashboard visuals are UI previews. Reflex is a separate line of work.</sub>
