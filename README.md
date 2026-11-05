@@ -4,7 +4,7 @@ I build memory and tools for developers and researchers whose AI agents keep sta
 
 Your agent read the whole repository yesterday. Today it remembers nothing. Ask where the retry logic lives and it searches the world again. Hand it a long task and it drops the thread halfway. Every session starts from zero.
 
-This profile is a map of one ecosystem built to fix that. TRACE is the vanguard: the memory. ANIMA carries that memory into coding work. Reflex takes the same care to the screen.
+This profile is a map of one ecosystem built to fix that. TRACE is the vanguard: the memory. ANIMA carries that memory into coding work through a prototype link. Reflex takes the same care to the screen.
 
 **[Start with TRACE](https://anshul48.github.io/trace/explorer/)** · [Watch the working films](https://anshul48.github.io/trace/demos/)
 
@@ -32,7 +32,7 @@ Every answer shows its working: which passages, which groups, what was scored. P
 
 ### ANIMA — memory for coding work.
 
-A one-line layer on the coding agent you already use — Muse Code first, with Claude Code and Codex adapters — giving it memory, a checker it cannot see, and a screen to watch it work.
+A one-line layer on the coding agent you already use — Muse Code first, with Claude Code and Codex adapters — giving it memory (a prototype link), a checker it cannot see, and a screen to watch it work.
 
 Install it with one line:
 
@@ -40,7 +40,7 @@ Install it with one line:
 curl -fsSL https://raw.githubusercontent.com/Anshul48/anima-substrate/main/install.sh | sh
 ```
 
-Its memory is TRACE-backed: past jobs are stored, recalled in front of the next prompt, and re-checked against their source. A real bug-fix run — verified by a hidden checker — replays as a state tree.
+Its memory is TRACE-backed: in a recorded run a past job went in front of the next prompt and was re-checked against its source. Recall of a new, different job is a small preliminary test (baseline 0 hits at 0.30 on 3 held-out tasks; two tuned variants cleared 0.30 on 2 of 3). A real bug-fix run — verified by a hidden checker — replays as a state tree.
 
 [Replay the recorded demo](https://anshul48.github.io/anima-substrate/demo/) — recorded state-tree replay; dashboard shown as UI preview. [How the demo runs](https://github.com/Anshul48/anima-substrate/blob/main/docs/INTEGRATED-DEMO.md)
 
@@ -85,6 +85,6 @@ In recorded trials on designed screens, Meta's SAM 3.1 marks the controls and Mu
 - [Architecture](https://github.com/Anshul48/trace/blob/main/docs/ARCHITECTURE.md) — how the memory is built.
 - [Research notes](https://github.com/Anshul48/trace/tree/main/docs/vision) — vision and open questions.
 - [Status](https://github.com/Anshul48/trace/blob/main/docs/status.json) — current verified state of the build.
-- [Contribute](https://github.com/Anshul48/trace/blob/main/CONTRIBUTING.md) — how to help.
+- [Contribute](https://github.com/Anshul48/trace/blob/main/.github/CONTRIBUTING.md) — how to help.
 
 <sub>Fine print: the TRACE demo library holds 812,545 passages and 99.9M tokens, short of the 100M target by 0.11%. Scope: 50 test searches; one of four equal library parts; passage-scoring work only. Recorded replays show real past runs; dashboard visuals are UI previews. Reflex is a separate line of work.</sub>

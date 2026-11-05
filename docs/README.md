@@ -7,7 +7,7 @@ This profile is a map. The records live in the project repos. Start from the [pr
 - [Architecture](https://github.com/Anshul48/trace/blob/main/docs/ARCHITECTURE.md) — how the memory is built.
 - [Research notes](https://github.com/Anshul48/trace/tree/main/docs/vision) — vision and open questions.
 - [Status](https://github.com/Anshul48/trace/blob/main/docs/status.json) — current verified state of the build.
-- [Contribute](https://github.com/Anshul48/trace/blob/main/CONTRIBUTING.md) — how to help.
+- [Contribute](https://github.com/Anshul48/trace/blob/main/.github/CONTRIBUTING.md) — how to help.
 
 Demos and films:
 
